@@ -98,6 +98,22 @@
     print_number(250);
 
 
+    //FUNCTIONS TO DEMONSTRATE THE STATIC FILES
+    function static_var(){
+        static $num=5;
+        $num=2;
+
+        $num++;
+        $num++;
+
+        echo $num, "\n";
+        echo $num, "\n";   
+    }
+//first function call
+    static_var();
+
+//second function call
+    static_var();
 
     //strings
     $str= "This is anything";
