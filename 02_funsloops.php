@@ -41,6 +41,18 @@
 
     echo "<br>";
 
+    $month="August";
+    if($month== "JanuARY"){
+        echo "Happy republic day"
+    }
+    elseif ($month == "August"){
+        echo "Happy independence day"
+    }
+    else{
+        echo "Nothing to show"
+    }
+        
+
 
 
     $languages= array("Python","C","CPP");
@@ -79,6 +91,10 @@
         echo "<br>";
     }
 
+    $colors= array("red", "green", "blue" ,"yellow");
+    foreach ($colors as $color){
+        echo $color;
+    }
 
 
 
